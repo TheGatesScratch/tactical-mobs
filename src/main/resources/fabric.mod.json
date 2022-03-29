@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tg_smartmobs",
+  "version": "${version}",
+  "name": "TheGates' smart mobs",
+  "description": "Smart mobs",
+  "authors": [
+    "TheGates"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "GNU-GPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.thegates.smobs.Main"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "tg_angma"
+  }
+}
